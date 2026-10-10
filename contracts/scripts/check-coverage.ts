@@ -30,8 +30,8 @@ import { resolve } from "node:path";
  * without saying anything about production code. `MockUSDC` is NOT a double in
  * the same sense — the demo uses it as the real collateral token — so it stays.
  *
- * `contracts/` also holds the identity module (Koliance.sol) and KolToken, which
- * are outside the perp workstream and have their own pre-existing coverage.
+ * `contracts/` also holds the identity module (Koliance.sol), which is outside
+ * the perp workstream and has its own pre-existing coverage.
  */
 const INCLUDED_PREFIXES = [
   "contracts/perp/PositionManager.sol",
